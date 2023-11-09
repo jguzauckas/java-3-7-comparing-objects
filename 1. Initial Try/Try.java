@@ -1,13 +1,14 @@
 public class Try {
     public static void main (String[] args){
-        int x = 10;
+        Person person1 = new Person(25, "Mr.", "G");
+        Person person2 = person1;
         
         if () {
-            System.out.println("x is between 5 and 15");
+            System.out.println("They share the same reference");
         }
 
         if () {
-            System.out.println("x is not equal to 5 or 15");
+            System.out.println("They are equivalent people");
         }
     }
 }

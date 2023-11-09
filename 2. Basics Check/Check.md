@@ -1,18 +1,13 @@
 # Basics Check
 
-Create an integer variable named `age` and store your age in it.
+Create three `Person` objects and assign them to variables. Give them your information, your information with a nickname, and a friends information.
 
-Create a boolean variable named `isStudent` and store your status as student in it.
+Compare them and state whether or not they are the same person according to the class's `equals` method.
 
-We want to create an `if` block that will selectively print out the following statements using compound boolean expressions and/or nested `if` statements:
+A sample output is as follows:
 
 ```
-You are an adult that is not a student.
-You are a college student.
-You are a high school student.
-You are a middle school student.
-You are an elementary school student.
-You are a young child that is not a student.
+Mr. G and John Guzauckas are not the same person.
+Mr. G and Ms. Kirchmeier are not the same person.
+John Guzauckas and Ms. Kirchmeier are not the same person.
 ```
-
-Once you have gotten to just warnings, save the Java file and commit and push your changes via GitHub Desktop.
